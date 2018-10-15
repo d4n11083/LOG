@@ -32,10 +32,6 @@ void GameObject::Update(){
     destRect.w = srcRect.w * 2;
     destRect.x = posX ;
     destRect.y = posY ;
-    
-    
-    
-    
 }
 
 void GameObject::Render(){
