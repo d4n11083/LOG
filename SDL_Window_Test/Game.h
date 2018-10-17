@@ -14,6 +14,7 @@
 #include "TextureManager.h"
 #include "DEFINITIONS.h"
 #include "GameObject.h"
+#include "Mapa.h"
 #include <stdio.h>
 #include <iostream>
 

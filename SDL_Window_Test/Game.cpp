@@ -21,6 +21,8 @@ Game::~Game(){
 
 GameObject *soldado;
 GameObject *enemigo;
+Mapa* mapa;
+
 
 SDL_Renderer *Game::renderer = nullptr;
 
@@ -52,6 +54,9 @@ void Game::init(const char *titulo, int posX, int posY, int ancho, int alto, boo
     
     //Se carga la textura del enemigo
     enemigo = new GameObject(PATHENEMIGOTEXTURE1, 50, 50);
+    
+    //Se carga el mapa
+    mapa = new Mapa();
 }
 
 void Game::handleEvents() {
@@ -84,6 +89,8 @@ void Game::render(){
     
     SDL_RenderClear( renderer );
     //Acá se renderiza todo.
+    
+    mapa->dibujarMapa();
     
     soldado->Render();
     
