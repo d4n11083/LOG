@@ -20,6 +20,7 @@ int main(int args, const char * argv[]){
         
         frameStart = SDL_GetTicks();
         
+        
         game->handleEvents();
         game->update();
         game->render();

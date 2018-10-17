@@ -31,5 +31,4 @@ private:
     
 };
 
-
 #endif /* GameObject_hpp */

@@ -21,5 +21,4 @@ public:
     
 };
 
-
 #endif /* TextureManager_h */

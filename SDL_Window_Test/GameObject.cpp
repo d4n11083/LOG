@@ -36,5 +36,5 @@ void GameObject::Update(){
 
 void GameObject::Render(){
     SDL_RenderCopy(Game::renderer, texObj, &srcRect, &destRect);
-    
+
 }

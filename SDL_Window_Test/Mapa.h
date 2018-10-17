@@ -34,7 +34,7 @@ private:
     int mapa[ANCHOMAPAINT][ALTOMAPAINT];
     
     
-    
+
 };
 
 #endif /* Mapa_hpp */
